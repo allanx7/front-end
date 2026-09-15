@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+@media (max-width: 768px) {
+
+body {
+    padding: 0;
+}
+
+  main {
+    width: 130%;
+  }
+
+  #conteiner {
+    flex-direction: column;
+  }
+
+  .card-conteiner-azul {
+    border-radius: 0 0 35px 35px;
+    padding: 24px 18px 16px;
+  }
+
+  .circulo1 {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto 18px;
+    padding: 0;
+  }
+
+  .card-conteiner-branco {
+    border-radius: 0 0 24px 24px;
+    padding: 24px 18px;
+  }
+
+  .resumo {
+    position: static;
+    margin-bottom: 8px;
+  }
+
+  .conteiner-cards {
+    width: 90%;
+    position: static;
+    right: 0;
+  }
+
+  .bnt {
+    position: static;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
